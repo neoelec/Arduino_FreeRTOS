@@ -1,0 +1,7 @@
+*.bak
+*.patch
+*.tar.bz2
+*.zip
+*~
+.vscode/
+out/

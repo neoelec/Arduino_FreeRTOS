@@ -199,7 +199,7 @@ static inline void prvSetupTimerInterrupt16bit( uint8_t uTimerNum )
         #if defined( TIMSK3 )
             TIMER_REG( 3 ),
         #endif
-        #if defined( TIMSK4 )
+        #if defined( TIMSK4 ) && defined (WGM42)
             TIMER_REG( 4 ),
         #endif
         #if defined( TIMSK5 )
